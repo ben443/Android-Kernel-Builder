@@ -1,1 +1,35 @@
-[]
+[  {
+    "kernelSource": {
+      "name": "samsung-r8q-nh",
+      "repo": "https://github.com/ben443/Nethunter-Kernel-S20_FE_5G",
+      "branch": "nethunter-13.0",
+      "device": "s20fe",
+      "defconfig": "wirus_defconfig"
+    },
+    "withKernelSU": false,
+    "toolchains": [
+      {
+        "repo": "https://android.googlesource.com/platform/prebuilts/gas/linux-x86",
+        "branch": "master",
+        "name": "gas"
+      },
+      {
+        "repo": "https://github.com/kdrag0n/proton-clang.git",
+        "branch": "master",
+        "name": "clang"
+      }
+    ],
+    "params": {
+      "ARCH": "arm64",
+      "CROSS_COMPILE": "aarch64-linux-gnu-",
+      "CROSS_COMPILE_ARM32": "arm-linux-gnueabi-",
+      "CROSS_COMPILE_COMPAT": "arm-linux-gnueabi-",
+      "CLANG_TRIPLE": "aarch64-linux-gnu-",
+      "AR": "llvm-ar",
+      "CC": "clang"
+    },
+    "extraParams": {
+      "KEEP": ""
+    }
+  }
+]
