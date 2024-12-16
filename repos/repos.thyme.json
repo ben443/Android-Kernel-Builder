@@ -2,10 +2,10 @@
   {
     "kernelSource": {
       "name": "Thyme-KernelSU-Proton",
-      "repo": "https://codeberg.org/DogDayAndroid/android_kernel_xiaomi_thyme",
+      "repo": "https://github.com/ben443/android_kernel_samsung_r8q",
       "branch": "lineage-20.0",
-      "device": "thyme",
-      "defconfig": "thyme_defconfig"
+      "device": "r8q",
+      "defconfig": "r8q_defconfig"
     },
     "withKernelSU": true,
     "toolchains": [
