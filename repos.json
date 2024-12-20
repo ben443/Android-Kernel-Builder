@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
-      "name": "miku-KernelSU",
-      "repo": "https://github.com/PhamtomK12/kernel_xiaomi_odin",
-      "branch": "TDA",
-      "device": "odin"
+      "name": "gts8-wifi-kernel",
+      "repo": "https://github.com/ben443/android_kernel_gts8wifi",
+      "branch": "EXDA",
+      "device": "gts8wifi"
     },
     "withKernelSU": false,
     "toolchains": [
