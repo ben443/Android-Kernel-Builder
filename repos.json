@@ -1,9 +1,9 @@
 [  {
     "kernelSource": {
-      "name": "gts8-wifi-kernel",
-      "repo": "https://github.com/ben443/android_kernel_gts8wifi",
-      "branch": "EXDA",
-      "device": "gts8wifi"
+      "name": "android_kernel_samsung_r8q-kernel",
+      "repo": "https://github.com/ben443/android_kernel_samsung_r8q.git",
+      "branch": "main",
+      "device": "r8q"
     },
     "withKernelSU": false,
     "toolchains": [
@@ -27,5 +27,7 @@
       "AR": "",
       "CC": "clang"
     }
+  }
+]
   }
 ]
